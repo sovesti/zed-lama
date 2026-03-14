@@ -1,0 +1,7 @@
+name = "Lama"
+grammar = "lama"
+path_suffixes = [
+  "lama",
+]
+line_comments = ["--"]
+tab_size = 3

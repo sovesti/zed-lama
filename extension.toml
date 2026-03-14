@@ -1,0 +1,13 @@
+id = "lama"
+name = "Lama"
+description = "Lama syntax highlighting"
+version = "0.0.1"
+schema_version = 1
+authors = [
+  "Vasily Fedorov <vasek.fedorov@gmail.com>",
+]
+repository = "https://github.com/sovesti/zed-lama"
+
+[grammars.lama]
+repository = "https://github.com/sovesti/tree-sitter-lama"
+commit = "7c3e91365e30620288c1ad6cd26070c8e831d0e5"
