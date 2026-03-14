@@ -6,7 +6,9 @@ Built on [tree-sitter](https://tree-sitter.github.io/tree-sitter/index.html) gra
 
 ## Installation
 
-See Zed documentation: <https://zed.dev/docs/extensions/installing-extensions>.
+- Clone this repository
+- In the Zed's Extension view (Zed > Extensions or ```Ctrl + Shift + x```) choose "Install Dev Extension"
+- Pick the folder with cloned repository
 
 ## Features
 
