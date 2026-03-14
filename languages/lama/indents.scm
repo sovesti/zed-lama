@@ -1,3 +1,3 @@
 [
-  (scope_expression)
+  (function_body "}" @end)
 ] @indent

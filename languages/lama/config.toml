@@ -2,6 +2,17 @@ name = "Lama"
 grammar = "lama"
 path_suffixes = [
   "lama",
+  "meta"
 ]
 line_comments = ["--"]
 tab_size = 3
+hard_tabs = false
+brackets = [{ start = "(", end = ")", close = true, newline = false },
+            { start = "[", end = "]", close = true, newline = false },
+            { start = "\"", end = "\"", close = true, newline = false },
+            { start = "'", end = "'", close = true, newline = false },
+            { start = "{", end = "}", close = true, newline = true },
+            { start = "case", end = "esac", close = true, newline = true },
+            { start = "if", end = "fi", close = true, newline = false },
+            { start = "do", end = "od", close = true, newline = true },
+            { start = "let", end = " in", close = true, newline = false }]

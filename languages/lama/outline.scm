@@ -1,5 +1,11 @@
-((comment)* @annotation
+([(line_comment) (block_comment)]* @annotation
  .
  (function_definition
-    name: (lident @name)
-    !normal) @item)
+    (binding
+        name: (lident) @name)) @item)
+
+([(line_comment) (block_comment)]* @annotation
+ .
+ (infix_definition
+    (infix_head
+        (infix) @name)) @item)
