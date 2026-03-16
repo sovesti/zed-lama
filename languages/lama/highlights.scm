@@ -89,3 +89,9 @@
 [
  "import"
 ] @include
+
+(uident) @constructor
+
+(dot_expression (lident) @operator)
+
+(postfix_expression (postfix_expression (lident) @operator) "(" _ ")")
