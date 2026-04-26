@@ -10,4 +10,4 @@ repository = "https://github.com/sovesti/zed-lama"
 
 [grammars.lama]
 repository = "https://github.com/sovesti/tree-sitter-lama"
-commit = "7c3e91365e30620288c1ad6cd26070c8e831d0e5"
+commit = "4aa578c53a4081440068f130185053250b449e59"
